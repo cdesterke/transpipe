@@ -45,6 +45,6 @@ transpipe R-package for transcriptome pipeline
 
 ![heatmap](https://github.com/cdesterke/transpipe/blob/main/heatmap.png)
 
-abbreviations: 
+depends: ggplot2, ggfortify, pheatmap, dplyr, limma 
 
 
