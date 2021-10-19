@@ -27,6 +27,8 @@ transpipe R-package for transcriptome pipeline
 
 > pcatrans(variable,pheno,group="group",pal="Set1")
 
+![pca](https://github.com/cdesterke/transpipe/blob/main/pca.png)
+
 ### limma DEG with control ref definition in phenotype
 
 > res<-deg(variable,pheno$group,control="NT")
@@ -34,6 +36,8 @@ transpipe R-package for transcriptome pipeline
 ### volcanoplot
 
 > vollimma(res,nb=500,fc=0.5,p=0.05,size=4,alpha=1)
+
+![volcano](https://github.com/cdesterke/transpipe/blob/main/volcano.png)
 
 ### heatmap on significant genes
 
